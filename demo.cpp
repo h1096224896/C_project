@@ -4,8 +4,8 @@
 
 
 void bubble_sort(int *arr, int length){
-    int t;
-    int a;
+    int temp;
+    
 }
 
 int main()
