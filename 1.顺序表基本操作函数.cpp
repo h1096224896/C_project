@@ -82,6 +82,7 @@ bool ListDelete(SqList &L) // 删除操作
         printf("顺序表不存在\n");
         return false;
     }
+    int e = 0; // initialize e to 0
     e = L.data[i - 1];
     for (int j = i; j <= L.length; j++)
     {
