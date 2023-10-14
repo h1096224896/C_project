@@ -1,9 +1,8 @@
 import requests
 from lxml import etree
 
-url = "https://biadu.com"
-headers = {
-    
-}
-res = requests.get(url=url,headers=)
-print(res)
+url = 'http://www.baidu.com'
+response = requests.get(url)
+html = etree.HTML(response.text)
+result = etree.tostring(html)
+print(result.decode('utf-8'))
