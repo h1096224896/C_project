@@ -1,0 +1,5 @@
+{
+    "commentTranslate.source": "Bing",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
+}
